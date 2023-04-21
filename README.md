@@ -30,7 +30,8 @@ Cloning the repository:
 ### Running the project:
 - The program can be run directly in your IDE
 - In the cmake-build-debug folder, create a text file (ex. myFile.txt)
-- Pass the file name as a program argument
+- Program arguments (1): The file name
+  - In CLion: `Run > Edit Configurations > Program arguments`
 - Click the Run button in the main.c file
 - Enter a word to replace, and a word to replace that old word with
 - When the program finishes executing, the file will be updated
